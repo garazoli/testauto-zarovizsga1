@@ -40,4 +40,4 @@ try:
     assert heads >= 30
 
 finally:
-    pass
+    driver.close()
